@@ -1,0 +1,69 @@
+﻿body{
+    margin-bottom: 75px;
+    font-family: "微软雅黑";
+}
+.col-xs-12{
+    padding: 0;
+}
+.container .jumbotron{
+    border-radius: 0;
+    margin: 0;
+}
+
+.input-group{
+    padding: 1em;
+}
+.input-group .input-group-addon,.input-group .btn-default{
+    font-size: 24px;
+}
+.input-group .form-control{
+    height: 48px;
+    font-size: 1.5em;
+}
+
+h3{
+    margin: 2em 0 1em 0;
+}
+
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.badge{
+    color: rgb(51,51,51);
+    background-color: rgb(255,128,0);
+    font-size: .8em;
+    margin-top: .3em;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: solid 1px grey;
+    padding-top: 1em;
+}
+
+.col-xs-4 .glyphicon{
+    display: block;
+    margin-bottom: .2em;
+    font-size: 2em;
+}
+.glyphicon-home, .glyphicon-home + b{
+    color:  rgb(255,128,0);
+}
+
+a,a:hover{
+    color: rgb(51,51,51);
+    text-decoration: none;
+}
+.col-xs-4 a:hover{
+    color:  rgb(255,128,0);
+}

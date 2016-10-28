@@ -1,0 +1,74 @@
+body{
+    font-family: "微软雅黑";
+    margin-bottom: 75px;
+}
+.col-xs-12{
+    padding: 0;
+}
+.head{
+    margin-bottom: 2em;
+}
+
+.glyphicon-chevron-left{
+    color: rgb(255,128,0);
+    position: absolute;
+    font-size: 3em;
+    left: .2em;
+    top: .4em;
+}
+
+.glyphicon-chevron-right{
+    color: rgb(255,128,0);
+    font-size: 1.5em;
+}
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.list-group .list-group-item:first-child{
+    font-weight: bold;
+}
+.list-group .list-group-item:first-child:hover{
+    cursor: pointer;
+    background-color: rgb(238,238,238);
+}
+
+.star{
+    left: .5em;
+    top: .1em;
+    display: inline-block;
+    height: 24px;
+    position: relative;
+}
+.star-empty, .star-full{
+    position: absolute;
+    font-size: 24px;
+}
+.star-empty{
+    color: darkgrey;
+}
+.star-full{
+    color: rgb(255,128,0);
+    clip: rect(0,113px,24px,0);
+}
+/*.star-full总长度:24*5=120px, clip的第二个参数为评分%*120   因为star-empty图标有很粗的边框，所以第二个参数为113px的时候看起来就像是满分了，所以我没有用star-empty图标*/
+ul:nth-of-type(2) .star-full{
+    clip: rect(0,33px,24px,0)
+}
+ul:nth-of-type(3) .star-full{
+    clip: rect(0,55px,24px,0)
+}
+ul:nth-of-type(4) .star-full{
+    clip: rect(0,79px,24px,0)
+}
+
+ul{
+    margin-top: 5em;
+}
+.head + ul{
+    margin-top: 0;
+}

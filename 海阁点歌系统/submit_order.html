@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>海阁点歌系统提交订单页面</title>
+    <link href="lib/bootstrap.min.css" rel="stylesheet"/>
+    <!--<link href="lib/font-awesome.min.css" rel="stylesheet"/>-->
+    <link href="submit_order.css" rel="stylesheet"/>
+    <script src="lib/jquery-3.1.0.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="head text-center">
+                    <a href=""><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <h1><b>提交订单</b></h1>
+                </div>
+                <form role="form">
+                    <div class="form-group">
+                        <p class="form-control-static">您想点给第<input type="text" class="form-control">桌的人</p>
+                        <hr/>
+                        <p class="form-control-static">您想对ta说的话是：</p>
+                        <textarea class="form-control" ></textarea>
+                    </div>
+                </form>
+                <ul class="list-group">
+                    <li class="list-group-item">商家名</li>
+                    <li class="list-group-item">
+                        <span class="badge">￥10</span>
+                        歌曲名-歌手名
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <span>待支付￥10</span>
+                <button class="btn pull-right"><b>提交订单</b></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

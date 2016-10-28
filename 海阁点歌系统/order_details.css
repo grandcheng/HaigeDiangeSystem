@@ -1,0 +1,88 @@
+body{
+    font-family: "微软雅黑";
+}
+.col-xs-12{
+    padding: 0;
+}
+
+.head{
+    margin-bottom: 2em;
+}
+
+.glyphicon-chevron-left{
+    color: rgb(255,128,0);
+    position: absolute;
+    font-size: 3em;
+    left: .2em;
+    top: .4em;
+}
+
+.glyphicon-chevron-right{
+    color: rgb(255,128,0);
+    font-size: 1.5em;
+}
+
+.list-group{
+    margin: 0;
+}
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.head + .list-group .list-group-item:first-child{
+    font-weight: bold;
+}
+.head + .list-group .list-group-item:first-child:hover{
+    cursor: pointer;
+    background-color: rgb(238,238,238);
+}
+.list-group .list-group-item p{
+    white-space: normal;
+    font-size: .9em;
+}
+
+ul ~ a{
+    margin: .5em;
+    font-size: 1.5em;
+    color:rgb(255,128,0);
+}
+ul ~ a:hover{
+    color:rgb(255,128,0);
+    text-decoration: underline;
+}
+.list-group .list-group-item:last-child:hover{
+    cursor: pointer;
+    background-color: rgb(238,238,238);
+}
+
+.badge{
+    color: rgb(51,51,51);
+    background-color: rgb(255,128,0);
+    font-size: .8em;
+    margin-top: .3em;
+}
+
+a + ul{
+    clear: both;
+}
+a + ul span{
+    font-size: .8em;
+    margin-left: 1em;
+}
+
+p{
+    font-size: 1.2em;
+    margin: 1em 0 .5em;
+}
+
+.btn{
+    background-color: rgb(255,128,0);
+    font-size: 2em;
+    border-radius: 0;
+    height: 75px;
+    width: 100%;
+}

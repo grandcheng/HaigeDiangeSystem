@@ -1,0 +1,79 @@
+﻿body{
+    font-family: "微软雅黑";
+    margin-bottom: 75px;
+}
+.col-xs-12{
+    padding: 0;
+}
+h1{
+    margin-bottom: 1em;
+}
+
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.list-group .list-group-item:first-child{
+    font-weight: bold;
+}
+.badge{
+    color: rgb(51,51,51);
+    background-color: rgb(255,128,0);
+    font-size: .8em;
+    margin-top: .3em;
+}
+
+a{
+    color: rgb(51,51,51);
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(51,51,51);
+}
+a:hover li{
+    background-color: rgb(245,245,245);
+}
+
+.pull-right{
+    margin: .5em;
+    font-size: 1.5em;
+    color:rgb(255,128,0);
+}
+.pull-right:hover{
+    color:rgb(255,128,0);
+    text-decoration: underline;
+}
+
+.col-xs-12 div{
+    margin-top: 5em;
+}
+.col-xs-12 h1 + div{
+    margin-top: 0;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: solid 1px grey;
+    padding-top: 1em;
+}
+.col-xs-4 .glyphicon{
+    display: block;
+    margin-bottom: .2em;
+    font-size: 2em;
+}
+.glyphicon-list-alt, .glyphicon-list-alt + b{
+	color: rgb(255,128,0);
+}
+.col-xs-4 a:hover{
+    color:  rgb(255,128,0);
+}

@@ -1,0 +1,82 @@
+body{
+    font-family: "微软雅黑";
+}
+.col-xs-12{
+    padding: 0;
+}
+
+.head{
+    margin-bottom: 2em;
+}
+
+.glyphicon-chevron-left{
+    color: rgb(255,128,0);
+    position: absolute;
+    font-size: 3em;
+    left: .2em;
+    top: .4em;
+}
+
+.form-group{
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.form-group input{
+    display: inline-block;
+    font-size: 1em;
+    width: 3em;
+    height: 1.5em;
+    margin: 0 .3em ;
+    padding: .4em;
+}
+
+.form-group textarea{
+    font-size: 1em;
+    width: 100%;
+    height: 8em;
+    resize: none;
+    overflow: auto;
+}
+
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.list-group .list-group-item:first-child{
+    font-weight: bold;
+}
+.badge{
+    color: rgb(51,51,51);
+    background-color: rgb(255,128,0);
+    font-size: .8em;
+    margin-top: .3em;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: solid 1px grey;
+}
+
+.footer span{
+    font-size: 2em;
+    line-height: 75px;
+    margin-left: 1em;
+}
+
+.footer .btn{
+    background-color: rgb(255,128,0);
+    font-size: 2em;
+    border-radius: 0;
+    height: 100%;
+    width: 33%;
+}

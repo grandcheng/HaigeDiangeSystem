@@ -1,0 +1,71 @@
+body{
+    font-family: "微软雅黑";
+    margin-bottom: 75px;
+}
+.col-xs-12{
+    padding: 0;
+}
+.head{
+    margin-bottom: 2em;
+}
+
+.glyphicon-chevron-left{
+    color: rgb(255,128,0);
+    position: absolute;
+    font-size: 3em;
+    left: .2em;
+    top: .4em;
+}
+
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.badge{
+    color: rgb(51,51,51);
+    background-color: rgb(255,128,0);
+    font-size: .8em;
+    margin-top: .3em;
+}
+.head + .list-group .list-group-item:first-child{
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.5em;
+    margin: 1em 0 .5em;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: solid 1px grey;
+}
+.footer span{
+    font-size: 1.5em;
+    line-height: 75px;
+    margin-left: 1em;
+}
+.footer .glyphicon-question-sign{
+    font-size: .9em;
+    margin-left: .5em;
+    cursor: pointer;
+}
+.footer .glyphicon-question-sign:hover{
+    color: rgb(255,128,0);
+}
+.footer .btn{
+    background-color: rgb(255,128,0);
+    font-size: 2em;
+    border-radius: 0;
+    height: 100%;
+    width: 33%;
+}

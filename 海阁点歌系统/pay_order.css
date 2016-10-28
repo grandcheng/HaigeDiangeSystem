@@ -1,0 +1,57 @@
+body{
+    font-family: "微软雅黑";
+}
+.col-xs-12{
+    padding: 0;
+}
+
+.head{
+    margin-bottom: 2em;
+}
+
+.glyphicon-chevron-left{
+    color: rgb(255,128,0);
+    position: absolute;
+    font-size: 3em;
+    left: .2em;
+    top: .4em;
+}
+
+p{
+    margin: 2em 0 1em;
+    font-size: 2em;
+}
+
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+p + ul li:hover{
+    cursor: pointer;
+    background-color: rgb(245,245,245);
+}
+.list-group .glyphicon{
+    color: rgb(255,128,0);
+    font-size: 1.8em;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer .btn{
+    background-color: rgb(255,128,0);
+    font-size: 2em;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+}

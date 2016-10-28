@@ -1,0 +1,30 @@
+/**
+ * Created by Administrator on 2016/10/18 0018.
+ */
+$(function(){
+    $(".comment").click(function(){
+        $(".comments-list").show();
+        $(".songs-list").hide();
+        $(".footer").hide();
+        $(".comment").addClass("selected");
+        $(".hot").removeClass("selected");
+        $("body").css("margin-bottom",0);
+    });
+    $(".hot").click(function(){
+        $(".comments-list").hide();
+        $(".songs-list").show();
+        $(".footer").show();
+        $(".hot").addClass("selected");
+        $(".comment").removeClass("selected");
+        $("body").css("margin-bottom","75px");
+    });
+    $(".head > span").click(function(){
+        if($(this).hasClass("glyphicon-heart-empty")){
+            $(this).removeClass("glyphicon-heart-empty");
+            $(this).addClass("glyphicon-heart");
+        }else{
+            $(this).removeClass("glyphicon-heart");
+            $(this).addClass("glyphicon-heart-empty");
+        }
+    })
+});

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>海阁点歌系统点歌页面</title>
+    <link href="lib/bootstrap.min.css" rel="stylesheet"/>
+    <!--<link href="lib/font-awesome.min.css" rel="stylesheet"/>-->
+    <link href="songs.css" rel="stylesheet"/>
+    <script src="lib/jquery-3.1.0.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="songs.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="head text-center">
+                    <a href=""><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <h1><b>商家名</b></h1>
+                    <span class="glyphicon glyphicon-heart-empty"><span>收藏</span></span>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><span class=" glyphicon glyphicon-search"></span></span>
+                    <input type="text" class="form-control" placeholder="搜索歌曲">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">取消</button>
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center hot selected"><b>推荐/热门</b></div>
+            <div class="col-xs-6 text-center comment"><b>评价</b></div>
+            <div class="col-xs-12">
+                <ul class="list-group songs-list">
+                    <a class="list-group-item" href="#" title="很长很长很长很长很长很长很长很长很长的歌名-很长很长很长很长很长很长很长很长很长的歌手名">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点10000000次</span>
+                        很长很长很长很长很长很长很长很长很长的歌名-很长很长很长很长很长很长很长很长很长的歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名1">
+                        <span class="badge">￥8</span>
+                        <span class="badge">被点90次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名2">
+                        <span class="badge">￥1000000</span>
+                        <span class="badge">被点85次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名3">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名4">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名5">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名6">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名7">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名8">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名9">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                    <a class="list-group-item" href="#" title="歌名-歌手名10">
+                        <span class="badge">￥10</span>
+                        <span class="badge">被点100次</span>
+                        歌名-歌手名
+                    </a>
+                </ul>
+                <ul class="list-group comments-list">
+                    <div class="text-center">
+                        <p class="">综合评价</p>
+                        <span>4.5</span>
+                    </div>
+                    <li class="list-group-item">
+                        <img src="" alt="用户头像" class="pull-left"/>
+                        <span class="pull-left">用户名</span>
+                        <br/>
+                        <div class="star pull-left">
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                        </div>
+                        <span class="date pull-right">2016-10-14 12:18</span>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum est explicabo fuga fugit ipsam iste laudantium, maxime neque nostrum numquam officia porro quaerat quasi quis quisquam repellat sed, ut vero!</p>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="" alt="用户头像" class="pull-left"/>
+                        <span class="pull-left">用户名</span>
+                        <br/>
+                        <div class="star pull-left">
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </div>
+                        <span class="date pull-right">2016-10-14 12:18</span>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum est explicabo fuga fugit ipsam iste laudantium, maxime neque nostrum numquam officia porro quaerat quasi quis quisquam repellat sed, ut vero!</p>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="" alt="用户头像" class="pull-left"/>
+                        <span class="pull-left">用户名</span>
+                        <br/>
+                        <div class="star pull-left">
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </div>
+                        <span class="date pull-right">2016-10-14 12:18</span>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum est explicabo fuga fugit ipsam iste laudantium, maxime neque nostrum numquam officia porro quaerat quasi quis quisquam repellat sed, ut vero!</p>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="" alt="用户头像" class="pull-left"/>
+                        <span class="pull-left">用户名</span>
+                        <br/>
+                        <div class="star pull-left">
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </div>
+                        <span class="date pull-right">2016-10-14 12:18</span>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum est explicabo fuga fugit ipsam iste laudantium, maxime neque nostrum numquam officia porro quaerat quasi quis quisquam repellat sed, ut vero!</p>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="" alt="用户头像" class="pull-left"/>
+                        <span class="pull-left">用户名</span>
+                        <br/>
+                        <div class="star pull-left">
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </div>
+                        <span class="date pull-right">2016-10-14 12:18</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum est explicabo fuga fugit ipsam iste laudantium, maxime neque nostrum numquam officia porro quaerat quasi quis quisquam repellat sed, ut vero!</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <span>￥10</span>
+                <button class="btn pull-right"><b>去结算</b></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+body{
+    margin-bottom: 75px;
+    font-family: "微软雅黑";
+}
+
+.col-xs-12, .col-xs-6{
+    padding: 0;
+}
+
+.head{
+    margin-bottom: 2em;
+}
+
+.glyphicon-chevron-left{
+    color: rgb(255,128,0);
+    position: absolute;
+    font-size: 3em;
+    left: .2em;
+    top: .4em;
+}
+.head > span{
+    position: absolute;
+    right: 1em;
+    top: 1.2em;
+    font-size: 1.8em;
+    border: solid 1px grey;
+    padding: .2em .4em .2em .2em;
+    border-radius: .75em / 50%;
+    cursor: pointer;
+}
+
+.head > span span{
+    font-size: .8em;
+    position: relative;
+    bottom: .25em;
+    left: .2em;
+    color: rgb(51,51,51);
+}
+
+.glyphicon-heart{
+    color: rgb(255,128,0);
+}
+
+.input-group{
+    padding: 1em;
+}
+
+.input-group .input-group-addon,.input-group .btn-default{
+    font-size: 24px;
+}
+.input-group .form-control{
+    height: 48px;
+    font-size: 20px;
+}
+
+.hot, .comment{
+    margin-top: 2em;
+    font-size: 1.5em;
+    line-height: 2em;
+    cursor: pointer;
+}
+.hot:hover, .comment:hover{
+    background-color: rgba(255,128,0,0.5);
+}
+
+.selected:hover, .selected{
+    background-color: rgb(255,128,0);
+}
+
+.list-group .list-group-item{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.badge{
+    color: rgb(51,51,51);
+    background-color: rgb(255,128,0);
+    font-size: .8em;
+    margin-top: .3em;
+}
+
+.comments-list{
+    display: none;
+}
+
+.comments-list > div p{
+    font-size: 1.8em;
+    margin: 1em 0 0 0;
+}
+.comments-list > div span{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(255,128,0);
+}
+
+.comments-list img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin: 0 1em 1em 0;
+}
+
+.comments-list span{
+    font-size: 1em ;
+    margin-right: .4em;
+}
+
+.comments-list .star{
+    font-size: .8em;
+    color: rgb(255,128,0);
+}
+
+.comments-list .date{
+    font-size: .7em;
+}
+
+.comments-list .list-group-item{
+    white-space: normal;
+}
+
+.comments-list .list-group-item > p {
+    font-size: .8em;
+    clear: both;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: solid 1px grey;
+}
+
+.footer span{
+    font-size: 2.5em;
+    line-height: 75px;
+    margin-left: 1em;
+}
+
+.footer .btn{
+    background-color: rgb(255,128,0);
+    font-size: 2em;
+    border-radius: 0;
+    height: 100%;
+    width: 33%;
+}
